@@ -1,0 +1,30 @@
+{
+        "dataset": "keyword",
+        "dimension": ["domain",
+                      "domain:raw_name",
+                      "keyword",
+                      "search_engine",
+                      "search_engine:id[0]",
+                      "search_engine[0]",
+                      "time"],
+        "measures": ["blended_rank",
+                     "rank",
+                     "search_volume"],
+        "filter": [["search_engine", [
+                    [1, 34], [2, 34], [3, 34],
+                    [1, 35], [2, 35], [3, 35],
+                    [1, 36], [2, 36], [3, 36],
+                    [1, 111], [2, 111], [3, 111],
+                    [1, 114], [2, 114], [3, 114],
+                    [1, 167], [2, 167], [3, 167],
+                    [1, 150], [2, 150], [3, 150],
+                    [1, 153], [2, 153], [3, 153],
+                    [1, 112], [2, 112], [3, 112],
+                    [1, 175], [2, 175], [3, 175],
+                    [1, 156], [2, 156], [3, 156]
+                                   ]],
+                ["domain", "eq", "SOME DOMAIN"]],
+        "dimensionOptions": {"time": "monthly"},
+        "count": "1000",
+        "offset": "0"
+    }
